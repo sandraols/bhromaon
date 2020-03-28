@@ -484,6 +484,9 @@ li {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) { 
+    .search__input {
+        font-size: 12px;
+    }
     .tourist__section {
         height: 60vh;
     }
@@ -501,12 +504,6 @@ and (max-device-width : 1024px) {
     //   float: right;
       display: block;
     }
-//     .navigation__list.responsive {position: relative;}
-//   .navigation__list.responsive .icon {
-//     position: absolute;
-//     right: 0;
-//     top: 0;
-//   }
   .navigation__list.responsive a {
     // float: none;
     display: block;
