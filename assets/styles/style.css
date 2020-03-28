@@ -532,6 +532,14 @@ li {
     flex-direction: column;
   }
 
+  .navigation__logo {
+    display: none;
+  }
+
+  .navigation__list {
+    width: 100%;
+  }
+
   .text__content {
     height: 30%;
     width: 90%;
