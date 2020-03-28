@@ -3,9 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bhromaon</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aleo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    
+    <main>
+        <header class="header">
+            <div class="header__container">
+                <h1 class="title">Bhromaon</h1>
+                <h2 class="subtitle">Safe Travel | Anywhere</h2>
+                <form class="search__form">
+                    <input class="search__input" type="text" placeholder="Search Your Travel Destination" name="search" required>
+                    <button class="search__button" type="submit">Search<i class="fas fa-search"></i></button>
+                </form>
+                <div>
+                    <a class="scroll__container" href="#tourist__section">
+                        <p class="scroll__text">Scroll Down</p>
+                        <i class="animated infinite fadeInDown fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="navigation__container">
+            <nav class="navigation">
+                <h2 class="navigation__logo">Bhromaon</h2>
+                <ul class="navigation__list" id="myTopnav">
+                    <li><a class="navigation__link" title="About" href="#about">Who We Are</a></li>
+                    <li><a class="navigation__link" title="About" href="#about">What We Do</a></li>
+                    <li><a class="navigation__link" title="About" href="#about">Travel With Us</a></li>
+                    <li><a class="navigation__link" title="About" href="#about">Contact Us</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="choose__section">
+            <div class="text__content">
+                <h3 class="choose__title">Why Choose Us</h3>
+                <p class="paragraph">Tion and dislike men who are so beguiled and demoralized by 
+                    desire by the charms of pleasure of the moment, so blinded by desire, that 
+                    they cannot foresee.<br><br>   Ddislike men who are so beguiled and demoralized by the 
+                    charms of pleasure of the moment, so blinded by desire, that.
+                </p>
+                <button class="main__button button">Explore Places</button>
+            </div>
+            <div class="images">
+                <img class="img__top" src="./assets/images/image-3.png" alt="image">
+                <img class="img__bottom" src="./assets/images/image-4.png" alt="image">
+            </div>
+        </section>
+        <section class="works__section">
+            <img class="icons__img" src="./assets/images/icons.svg" alt="icon">
+        </section>
+        <section class="book__section">
+            <div class="book__content">
+                <h4 class="label">Spain</h4>
+                <h3 class="book__title">Grand Spain Madrid</h3>
+                <p class="paragraph book__paragraph">But I must explain to you how all this mistaken idea of account to denouncing 
+                    pleasure and praising pain was account  born and I account will give you a 
+                    complete account of the system
+                </p>
+                <button class="main__button button">Book Now</button>
+            </div>
+        </section>
+        <section class="book__section second">
+            <div class="book__content second">
+                <h4 class="label">Spain</h4>
+                <h3 class="book__title">Grand Spain Madrid</h3>
+                <p class="paragraph book__paragraph">But I must explain to you how all this mistaken idea of account to denouncing 
+                    pleasure and praising pain was account  born and I account will give you a 
+                    complete account of the system
+                </p>
+                <button class="main__button button">Book Now</button>
+            </div>
+        </section>
+        <section id="tourist__section" class="tourist__section">
+            <div class="tourist__container">
+                <h2 class="tourist__title">What Our  Tourist Say</h2>
+                <div class="tourist__content">
+                    <div class="tourist__img"></div>
+                    <div class="tourist__text">
+                        <h3 class="name">Sam Sumon</h3>
+                        <p class="paragraph tourist__paragraph"><i class="fas fa-quote-left"></i>But I must explain to you how 
+                            all this mistaken idea of account to denouncinpleasure and praising pain  But I 
+                            must explain to you how all this mistaken idea of account to nai denouncing pleasure 
+                            and praising pain was account  born and I account will give you a complete 
+                            account of the system was account  born and I account will give you a nai the 
+                            complete account of the system
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__content">
+                <h2 class="footer__title">Bhromaon</h2>
+                <h3 class="slogan">Safe Travel Anywhere</h3>
+                <ul class="socials">
+                    <a href="#"><li class="socials__link"><i class="fab fa-facebook-f"></i></li></a>
+                    <a href="#"><li class="socials__link"><i class="fab fa-twitter"></i></li></a>
+                    <a href="#"><li class="socials__link"><i class="fab fa-linkedin-in"></i></li></a>
+                    <a href="#"><li class="socials__link"><i class="fab fa-youtube"></i></li></a>
+                    <a href="#"><li class="socials__link"><i class="fab fa-pinterest"></i></li></a>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/9474fc5a33.js" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navigation__list") {
+            x.className += " responsive";
+            } else {
+            x.className = "navigation__list";
+            }
+        }
+    </script>
 </body>
 </html>
